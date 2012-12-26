@@ -1,0 +1,343 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		662F9B23160C7B4C009BA6F1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 662F9B22160C7B4C009BA6F1 /* UIKit.framework */; };
+		662F9B25160C7B4C009BA6F1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 662F9B24160C7B4C009BA6F1 /* Foundation.framework */; };
+		662F9B27160C7B4C009BA6F1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 662F9B26160C7B4C009BA6F1 /* CoreGraphics.framework */; };
+		662F9B2D160C7B4C009BA6F1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 662F9B2B160C7B4C009BA6F1 /* InfoPlist.strings */; };
+		662F9B2F160C7B4C009BA6F1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 662F9B2E160C7B4C009BA6F1 /* main.m */; };
+		662F9B33160C7B4C009BA6F1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 662F9B32160C7B4C009BA6F1 /* AppDelegate.m */; };
+		662F9B35160C7B4C009BA6F1 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 662F9B34160C7B4C009BA6F1 /* Default.png */; };
+		662F9B37160C7B4C009BA6F1 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 662F9B36160C7B4C009BA6F1 /* Default@2x.png */; };
+		662F9B39160C7B4C009BA6F1 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 662F9B38160C7B4C009BA6F1 /* Default-568h@2x.png */; };
+		662F9B3C160C7B4C009BA6F1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 662F9B3B160C7B4C009BA6F1 /* ViewController.m */; };
+		662F9B3F160C7B4C009BA6F1 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 662F9B3D160C7B4C009BA6F1 /* ViewController.xib */; };
+		662F9B46160C7B90009BA6F1 /* ProductCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 662F9B45160C7B90009BA6F1 /* ProductCell.xib */; };
+		662F9B4A160C7BAC009BA6F1 /* FabioBudai.png in Resources */ = {isa = PBXBuildFile; fileRef = 662F9B47160C7BAC009BA6F1 /* FabioBudai.png */; };
+		662F9B4B160C7BAC009BA6F1 /* yeni.png in Resources */ = {isa = PBXBuildFile; fileRef = 662F9B48160C7BAC009BA6F1 /* yeni.png */; };
+		662F9B4C160C7BAC009BA6F1 /* indirim.png in Resources */ = {isa = PBXBuildFile; fileRef = 662F9B49160C7BAC009BA6F1 /* indirim.png */; };
+		662F9B53160C8F59009BA6F1 /* ProductModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 662F9B52160C8F59009BA6F1 /* ProductModel.m */; };
+		662F9B5A160C982F009BA6F1 /* IconDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 662F9B58160C982F009BA6F1 /* IconDownloader.m */; };
+		662F9B5C160CAAA0009BA6F1 /* Placeholder.png in Resources */ = {isa = PBXBuildFile; fileRef = 662F9B5B160CAAA0009BA6F1 /* Placeholder.png */; };
+		66EFE4D3161091C60070B56B /* PocketMoney.png in Resources */ = {isa = PBXBuildFile; fileRef = 66EFE4D2161091C60070B56B /* PocketMoney.png */; };
+		66EFE4D5161097420070B56B /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 66EFE4D4161097420070B56B /* icon.png */; };
+		66EFE4DB1610A0CA0070B56B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66EFE4DA1610A0CA0070B56B /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		662F9B1E160C7B4C009BA6F1 /* CustomCellNibJsonLoading.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomCellNibJsonLoading.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		662F9B22160C7B4C009BA6F1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		662F9B24160C7B4C009BA6F1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		662F9B26160C7B4C009BA6F1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		662F9B2A160C7B4C009BA6F1 /* CustomCellNibJsonLoading-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CustomCellNibJsonLoading-Info.plist"; sourceTree = "<group>"; };
+		662F9B2C160C7B4C009BA6F1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		662F9B2E160C7B4C009BA6F1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		662F9B30160C7B4C009BA6F1 /* CustomCellNibJsonLoading-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CustomCellNibJsonLoading-Prefix.pch"; sourceTree = "<group>"; };
+		662F9B31160C7B4C009BA6F1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		662F9B32160C7B4C009BA6F1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		662F9B34160C7B4C009BA6F1 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		662F9B36160C7B4C009BA6F1 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		662F9B38160C7B4C009BA6F1 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		662F9B3A160C7B4C009BA6F1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		662F9B3B160C7B4C009BA6F1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		662F9B3E160C7B4C009BA6F1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		662F9B45160C7B90009BA6F1 /* ProductCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ProductCell.xib; path = ../ProductCell.xib; sourceTree = "<group>"; };
+		662F9B47160C7BAC009BA6F1 /* FabioBudai.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = FabioBudai.png; path = ../FabioBudai.png; sourceTree = "<group>"; };
+		662F9B48160C7BAC009BA6F1 /* yeni.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = yeni.png; path = ../yeni.png; sourceTree = "<group>"; };
+		662F9B49160C7BAC009BA6F1 /* indirim.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = indirim.png; path = ../indirim.png; sourceTree = "<group>"; };
+		662F9B51160C8F59009BA6F1 /* ProductModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductModel.h; sourceTree = "<group>"; };
+		662F9B52160C8F59009BA6F1 /* ProductModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductModel.m; sourceTree = "<group>"; };
+		662F9B58160C982F009BA6F1 /* IconDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IconDownloader.m; sourceTree = "<group>"; };
+		662F9B59160C982F009BA6F1 /* IconDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IconDownloader.h; sourceTree = "<group>"; };
+		662F9B5B160CAAA0009BA6F1 /* Placeholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Placeholder.png; sourceTree = "<group>"; };
+		66EFE4D2161091C60070B56B /* PocketMoney.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PocketMoney.png; sourceTree = "<group>"; };
+		66EFE4D4161097420070B56B /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		66EFE4DA1610A0CA0070B56B /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		662F9B1B160C7B4C009BA6F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66EFE4DB1610A0CA0070B56B /* QuartzCore.framework in Frameworks */,
+				662F9B23160C7B4C009BA6F1 /* UIKit.framework in Frameworks */,
+				662F9B25160C7B4C009BA6F1 /* Foundation.framework in Frameworks */,
+				662F9B27160C7B4C009BA6F1 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		662F9B13160C7B4C009BA6F1 = {
+			isa = PBXGroup;
+			children = (
+				662F9B28160C7B4C009BA6F1 /* CustomCellNibJsonLoading */,
+				662F9B21160C7B4C009BA6F1 /* Frameworks */,
+				662F9B1F160C7B4C009BA6F1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		662F9B1F160C7B4C009BA6F1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				662F9B1E160C7B4C009BA6F1 /* CustomCellNibJsonLoading.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		662F9B21160C7B4C009BA6F1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				66EFE4DA1610A0CA0070B56B /* QuartzCore.framework */,
+				662F9B22160C7B4C009BA6F1 /* UIKit.framework */,
+				662F9B24160C7B4C009BA6F1 /* Foundation.framework */,
+				662F9B26160C7B4C009BA6F1 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		662F9B28160C7B4C009BA6F1 /* CustomCellNibJsonLoading */ = {
+			isa = PBXGroup;
+			children = (
+				662F9B5B160CAAA0009BA6F1 /* Placeholder.png */,
+				662F9B58160C982F009BA6F1 /* IconDownloader.m */,
+				662F9B59160C982F009BA6F1 /* IconDownloader.h */,
+				662F9B51160C8F59009BA6F1 /* ProductModel.h */,
+				662F9B52160C8F59009BA6F1 /* ProductModel.m */,
+				662F9B47160C7BAC009BA6F1 /* FabioBudai.png */,
+				662F9B48160C7BAC009BA6F1 /* yeni.png */,
+				662F9B49160C7BAC009BA6F1 /* indirim.png */,
+				662F9B45160C7B90009BA6F1 /* ProductCell.xib */,
+				662F9B31160C7B4C009BA6F1 /* AppDelegate.h */,
+				662F9B32160C7B4C009BA6F1 /* AppDelegate.m */,
+				662F9B3A160C7B4C009BA6F1 /* ViewController.h */,
+				662F9B3B160C7B4C009BA6F1 /* ViewController.m */,
+				662F9B3D160C7B4C009BA6F1 /* ViewController.xib */,
+				662F9B29160C7B4C009BA6F1 /* Supporting Files */,
+			);
+			path = CustomCellNibJsonLoading;
+			sourceTree = "<group>";
+		};
+		662F9B29160C7B4C009BA6F1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				66EFE4D2161091C60070B56B /* PocketMoney.png */,
+				66EFE4D4161097420070B56B /* icon.png */,
+				662F9B2A160C7B4C009BA6F1 /* CustomCellNibJsonLoading-Info.plist */,
+				662F9B2B160C7B4C009BA6F1 /* InfoPlist.strings */,
+				662F9B2E160C7B4C009BA6F1 /* main.m */,
+				662F9B30160C7B4C009BA6F1 /* CustomCellNibJsonLoading-Prefix.pch */,
+				662F9B34160C7B4C009BA6F1 /* Default.png */,
+				662F9B36160C7B4C009BA6F1 /* Default@2x.png */,
+				662F9B38160C7B4C009BA6F1 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		662F9B1D160C7B4C009BA6F1 /* CustomCellNibJsonLoading */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 662F9B42160C7B4C009BA6F1 /* Build configuration list for PBXNativeTarget "CustomCellNibJsonLoading" */;
+			buildPhases = (
+				662F9B1A160C7B4C009BA6F1 /* Sources */,
+				662F9B1B160C7B4C009BA6F1 /* Frameworks */,
+				662F9B1C160C7B4C009BA6F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CustomCellNibJsonLoading;
+			productName = CustomCellNibJsonLoading;
+			productReference = 662F9B1E160C7B4C009BA6F1 /* CustomCellNibJsonLoading.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		662F9B15160C7B4C009BA6F1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = Mobilistbilisim;
+			};
+			buildConfigurationList = 662F9B18160C7B4C009BA6F1 /* Build configuration list for PBXProject "CustomCellNibJsonLoading" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 662F9B13160C7B4C009BA6F1;
+			productRefGroup = 662F9B1F160C7B4C009BA6F1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				662F9B1D160C7B4C009BA6F1 /* CustomCellNibJsonLoading */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		662F9B1C160C7B4C009BA6F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				662F9B2D160C7B4C009BA6F1 /* InfoPlist.strings in Resources */,
+				662F9B35160C7B4C009BA6F1 /* Default.png in Resources */,
+				662F9B37160C7B4C009BA6F1 /* Default@2x.png in Resources */,
+				662F9B39160C7B4C009BA6F1 /* Default-568h@2x.png in Resources */,
+				662F9B3F160C7B4C009BA6F1 /* ViewController.xib in Resources */,
+				662F9B46160C7B90009BA6F1 /* ProductCell.xib in Resources */,
+				662F9B4A160C7BAC009BA6F1 /* FabioBudai.png in Resources */,
+				662F9B4B160C7BAC009BA6F1 /* yeni.png in Resources */,
+				662F9B4C160C7BAC009BA6F1 /* indirim.png in Resources */,
+				662F9B5C160CAAA0009BA6F1 /* Placeholder.png in Resources */,
+				66EFE4D3161091C60070B56B /* PocketMoney.png in Resources */,
+				66EFE4D5161097420070B56B /* icon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		662F9B1A160C7B4C009BA6F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				662F9B2F160C7B4C009BA6F1 /* main.m in Sources */,
+				662F9B33160C7B4C009BA6F1 /* AppDelegate.m in Sources */,
+				662F9B3C160C7B4C009BA6F1 /* ViewController.m in Sources */,
+				662F9B53160C8F59009BA6F1 /* ProductModel.m in Sources */,
+				662F9B5A160C982F009BA6F1 /* IconDownloader.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		662F9B2B160C7B4C009BA6F1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				662F9B2C160C7B4C009BA6F1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		662F9B3D160C7B4C009BA6F1 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				662F9B3E160C7B4C009BA6F1 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		662F9B40160C7B4C009BA6F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		662F9B41160C7B4C009BA6F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		662F9B43160C7B4C009BA6F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CustomCellNibJsonLoading/CustomCellNibJsonLoading-Prefix.pch";
+				INFOPLIST_FILE = "CustomCellNibJsonLoading/CustomCellNibJsonLoading-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		662F9B44160C7B4C009BA6F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CustomCellNibJsonLoading/CustomCellNibJsonLoading-Prefix.pch";
+				INFOPLIST_FILE = "CustomCellNibJsonLoading/CustomCellNibJsonLoading-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		662F9B18160C7B4C009BA6F1 /* Build configuration list for PBXProject "CustomCellNibJsonLoading" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				662F9B40160C7B4C009BA6F1 /* Debug */,
+				662F9B41160C7B4C009BA6F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		662F9B42160C7B4C009BA6F1 /* Build configuration list for PBXNativeTarget "CustomCellNibJsonLoading" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				662F9B43160C7B4C009BA6F1 /* Debug */,
+				662F9B44160C7B4C009BA6F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 662F9B15160C7B4C009BA6F1 /* Project object */;
+}
